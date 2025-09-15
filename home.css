@@ -68,7 +68,7 @@ ul {
   gap: 12px;
   margin-bottom: 16px;
 }
-.account-card .avatar {
+.avatar {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -182,4 +182,40 @@ ul {
   border-radius: 50%;
   margin-left: -4px;
   border: 2px solid rgb(18, 23, 23);
+}
+.right-footer,
+.right-footer a {
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+}
+
+.right-footer {
+  margin-top: 1.6rem;
+}
+.copyright {
+  margin-top: 1rem;
+}
+.btn-follow {
+  background-color: transparent;
+  color: #0178c7;
+  outline: none;
+  border: none;
+}
+.btn-follow:hover {
+  cursor: pointer;
+}
+.meta {
+  color: rgb(115, 115, 115);
+}
+.side-menu li {
+  margin-top: 1.5rem;
+}
+.user_profile_li img {
+  display: flex;
+  align-items: ce;
+  width: 34px;
+  height: 34px;
+}
+.user_profile_li a div:nth-of-type(2) {
+  margin-left: 6px;
 }
