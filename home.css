@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+.home_wrapper {
+  display: flex;
+}
+
+.left_nav {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 20%;
+  height: 99vh;
+  background-color: lightblue;
+}
+
+.main_section {
+  height: 200rem;
+  flex: 0 0 60%;
+  background-color: lightcoral;
+}
+.right_nav {
+  flex: 0 0 20%;
+  background-color: lightpink;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.left_nav ul li {
+  list-style-type: none;
+}
+.left_nav ul li span {
+  margin-left: 0.3rem;
+}
+.side_nav_nested_container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul {
+  padding: 0px 20px;
+}
+.instagram_text > img {
+  width: 125px !important;
+  margin-left: 1rem;
+}
+
+/* Right nav */
+.right_nav {
+  /* width: 320px; */
+  padding: 24px 16px;
+  box-sizing: border-box;
+  top: 24px;
+  align-self: start;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.home_wrapper {
+}
+
+.account-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.account-card .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.account-card .name-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  flex: 1;
+  min-width: 0;
+}
+.account-card .username {
+  font-weight: 600;
+  text-decoration: none;
+}
+.account-card .fullname {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+.account-card .switch-link {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.suggested-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 8px;
+}
+.suggested-header h2 {
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 600;
+  margin: 0;
+}
+.suggested-header .see-all {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+.suggestion .avatar {
+  width: 40px;
+  height: 40px;
+}
+.suggestion .suggestion-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+.suggestion .username {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.suggestion .meta {
+  font-size: 12px;
+}
+
+.btn-follow {
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.right_nav {
+  height: 99vh;
+}
+.message {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #212328;
+  border-radius: 40px;
+  padding: 15px 40px;
+  color: white;
+  opacity: 0.8;
+  align-items: center;
+  width: 11rem;
+}
+.message div:nth-of-type(1) {
+  margin-left: 8px;
+}
+
+.recent_messages {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+.recent_messages img {
+  width: 25px;
+  /* height: 20px; */
+  border-radius: 50%;
+  margin-left: -4px;
+  border: 2px solid rgb(18, 23, 23);
+}
