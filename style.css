@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+    align-items: center;
+}
+
+.inner_wrapper{
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.opeartors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button_item > button{
+    width: 2rem;
+    font-size: 1.4rem;
+}
+
+.button_item{
+    padding: 5px;
+}
+
+.result_box{
+    padding: 5px;
+}
+.button_item>button:hover{
+    cursor: pointer;
+}
+
+input{
+    width: 100% !important;
+}
+
+.enter_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.enter_wrapper button {
+  width: 50%;
+  padding: 8px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background: #232323;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enter_wrapper button:active, .enter_wrapper button:hover {
+  background: #000;
+}
